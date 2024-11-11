@@ -3,7 +3,7 @@ let operador = "";
 let resultAnterior = "";
 
 function atualizarTela() {
-    document.getElementById('resultado').innerText = tela || '0';
+    document.getElementById('result').innerText = tela || '0';
 }
 
 function adicionarNumero(numero) {
